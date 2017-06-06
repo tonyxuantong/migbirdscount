@@ -1,6 +1,6 @@
 # migbirdscount
 # Run the following first
-library("devtools")
+library(devtools)
 library(roxygen2)
 library(raster)
 library(rgdal)
@@ -10,3 +10,5 @@ library(leaflet)
 # by defalt, sample data directory is ("sample/GlobalS.tif")
 # Then install Through
 devtools::install_github("tonyxuantong/migbirdscount")
+# Test using
+MigratoryBirdsCount::MigratoryBirdsCount_function()
